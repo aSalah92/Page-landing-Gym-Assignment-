@@ -42,3 +42,69 @@ header{
         border-radius: 15px;
     }
 }
+
+
+
+main{
+    article{
+        margin-top: 140px;
+        .why-fitcore-gym{
+            text-align: center;
+        }
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 40px;
+        }
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            width: 800px;
+            margin: auto;
+        }
+        #boxes-parent{
+         margin: auto;
+         background-color: blue;
+         .boxes{
+            background-color: aqua;
+            display: inline-block;
+            width: 30%;
+            padding: 10px;
+            div{
+                width: 90px;
+                height: 90px;
+                background-color: brown;
+                padding: auto;
+                div{
+                    width: 70%;
+                    height: 70%;
+                    background-color: white;
+                    margin: auto;
+                }
+            }
+            h3{
+                background-color: bisque;
+            }
+            p{
+                background-color: bisque;
+                display: inline;
+            }
+         }
+        }
+    }
+}
+
+
+
+.test1{
+    background-color: green;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    .test2{
+        height: 60%;
+        background-color: red;
+        width: 60%;
+        position: absolute; left: 25%; top: 25%;
+        
+    }
+}
