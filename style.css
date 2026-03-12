@@ -380,7 +380,7 @@ main{
             div{
                 display: inline-block;
             }
-            div:first-child{
+            .fit-core{
                 vertical-align: top;
                 margin-right: 45px;
                 width: 39%;
@@ -391,16 +391,14 @@ main{
                     text-decoration: none;
                     color: aliceblue;
                     opacity: 0.7;
+                    margin-right: 30px;
                 }
             }
-            div:nth-child(2){
+            .links{
                 vertical-align: top;
                 width: 25%;
-                
-                
                 div{
                     display: block;
-                    
                     width: 100%;
                     margin-bottom: 20px;
                     a{
@@ -410,7 +408,7 @@ main{
                     }
                 }
             }
-            div:last-child{
+            .contact-info{
                 vertical-align: top;
                 p:nth-child(2){
                     font-weight: 900;
@@ -432,6 +430,25 @@ main{
                 }
                 
 
+            }
+            .foot{
+                width: 100%;
+                .rights{
+                    width: 68.1%;
+                    p{
+                        font-size: 16px;
+                        opacity: 0.6;
+                    }
+                }
+                .foot-links{
+                    a{
+                        color: aliceblue;
+                        text-decoration: none;
+                        margin-right: 20px;
+                        font-size: 14px;
+                        opacity: 0.6;
+                    }
+                }
             }
 
         }
